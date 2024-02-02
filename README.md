@@ -10,12 +10,11 @@ For additional information about the task, please consult the official [website]
 * **Evaluation data ready 1 December 2023 (internal deadline; not for public release)**
 * **Evaluation start 10 January 2024**
 * Evaluation end by 31 January 2024 (latest date; task organizers may choose an earlier date)
-* System paper submission due 29 February 2024
-* Task paper submission due 7 March 2024
-* Notification to authors 1 April 2024
-* Camera ready due 22 April 2024
-* SemEval workshop: TBD 2024 (co-located with a major NLP conference)
-
+* System paper submission due 19 February 2024
+* Notification to authors 18 March 2024
+* Camera ready due 01 April 2024
+* SemEval workshop: June 16–21, 2024 (co-located with NAACL 2024 in Mexico City, Mexico)
+All deadlines are 23:59 UTC-12 ("anywhere on Earth").
 ## News
 
 * Training data is now available in `training_data.zip`!
