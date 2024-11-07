@@ -65,7 +65,7 @@ def faithfulness(predictions, gold):
     return Faithfulness
 
 
-def consistency_updated(predictions_preserving, predictions, gold):
+def consistency(predictions_preserving, predictions, gold):
     uuid_list = list(predictions_preserving.keys())
     N = len(uuid_list)
     results = []
