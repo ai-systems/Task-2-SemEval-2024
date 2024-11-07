@@ -65,12 +65,12 @@ def faithfulness(predictions, gold):
     return Faithfulness
 
 
-def consistency(predictions, gold):
-    uuid_list = list(predictions.keys())
+def consistency_updated(predictions_preserving, predictions, gold):
+    uuid_list = list(predictions_preserving.keys())
     N = len(uuid_list)
     results = []
     for key in uuid_list:
-        if predictions[key]["Prediction"] == gold[key]["Label"]:
+        if predictions_preserving[key]["Prediction"] == predictions[data[key]["Causal_type"][1]]["Prediction"]:
             results.append(1)
         else:
             results.append(0)
