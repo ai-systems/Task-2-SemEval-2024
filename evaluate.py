@@ -70,7 +70,7 @@ def consistency(predictions_preserving, predictions, gold):
     N = len(uuid_list)
     results = []
     for key in uuid_list:
-        if predictions_preserving[key]["Prediction"] == predictions[data[key]["Causal_type"][1]]["Prediction"]:
+        if predictions_preserving[key]["Prediction"] == predictions[gold[key]["Causal_type"][1]]["Prediction"]:
             results.append(1)
         else:
             results.append(0)
